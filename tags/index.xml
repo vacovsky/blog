@@ -84,15 +84,6 @@
     </item>
     
     <item>
-      <title>Hello</title>
-      <link>https://vacoj.github.io/tags/hello/</link>
-      <pubDate>Tue, 26 Sep 2017 08:46:56 -0700</pubDate>
-      
-      <guid>https://vacoj.github.io/tags/hello/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Irrigation</title>
       <link>https://vacoj.github.io/tags/irrigation/</link>
       <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
@@ -120,6 +111,15 @@
     </item>
     
     <item>
+      <title>Negative Value</title>
+      <link>https://vacoj.github.io/tags/negative-value/</link>
+      <pubDate>Tue, 26 Sep 2017 08:46:56 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/negative-value/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>https://vacoj.github.io/tags/python/</link>
       <pubDate>Tue, 26 Sep 2017 12:25:05 -0700</pubDate>
@@ -143,15 +143,6 @@
       <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/sprinkler/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>World</title>
-      <link>https://vacoj.github.io/tags/world/</link>
-      <pubDate>Tue, 26 Sep 2017 08:46:56 -0700</pubDate>
-      
-      <guid>https://vacoj.github.io/tags/world/</guid>
       <description></description>
     </item>
     
