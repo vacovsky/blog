@@ -6,10 +6,46 @@
     <description>Recent content in Tags on stupid _ prizes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 26 Sep 2017 08:46:56 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 26 Sep 2017 12:25:05 -0700</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Api</title>
+      <link>https://vacoj.github.io/tags/api/</link>
+      <pubDate>Tue, 26 Sep 2017 12:25:05 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Corporate</title>
+      <link>https://vacoj.github.io/tags/corporate/</link>
+      <pubDate>Tue, 26 Sep 2017 12:14:47 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/corporate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>https://vacoj.github.io/tags/django/</link>
+      <pubDate>Tue, 26 Sep 2017 12:25:05 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://vacoj.github.io/tags/github/</link>
+      <pubDate>Tue, 26 Sep 2017 12:14:47 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/github/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hello</title>
@@ -17,6 +53,24 @@
       <pubDate>Tue, 26 Sep 2017 08:46:56 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/hello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mindbody</title>
+      <link>https://vacoj.github.io/tags/mindbody/</link>
+      <pubDate>Tue, 26 Sep 2017 12:25:05 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/mindbody/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://vacoj.github.io/tags/python/</link>
+      <pubDate>Tue, 26 Sep 2017 12:25:05 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/python/</guid>
       <description></description>
     </item>
     

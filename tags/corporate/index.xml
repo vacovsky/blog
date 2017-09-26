@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corporate on stupid _ prizes</title>
+    <link>https://vacoj.github.io/tags/corporate/</link>
+    <description>Recent content in Corporate on stupid _ prizes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 26 Sep 2017 12:14:47 -0700</lastBuildDate>
+    
+	<atom:link href="https://vacoj.github.io/tags/corporate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mindbody-API-Golang</title>
+      <link>https://vacoj.github.io/project/mindbodyapigolang/</link>
+      <pubDate>Tue, 26 Sep 2017 12:14:47 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/project/mindbodyapigolang/</guid>
+      <description>This is a wrapper around the SOAP API XML contracts available to Mindbody API partners, written in Go.
+Getting Started Install packages for each service you wish to use go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/siteservice&amp;quot; go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/staffservice&amp;quot; go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/clientservice&amp;quot; go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/classservice&amp;quot; go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/saleservice&amp;quot; go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/appointmentservice&amp;quot; go get -u &amp;quot;github.com/vacoj/wsdl2go&amp;quot; go get -u &amp;quot;github.com/vacoj/wsdl2go/soap&amp;quot;  Follow this pattern to make requests and parse calls func makeGetSitesCall() { cli := soap.</description>
+    </item>
+    
+  </channel>
+</rss>

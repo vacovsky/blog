@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>stupid _ prizes</title>
-    <link>https://vacoj.github.io/</link>
-    <description>Recent content on stupid _ prizes</description>
+    <title>Api on stupid _ prizes</title>
+    <link>https://vacoj.github.io/tags/api/</link>
+    <description>Recent content in Api on stupid _ prizes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 26 Sep 2017 12:25:05 -0700</lastBuildDate>
     
-	<atom:link href="https://vacoj.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vacoj.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -31,34 +31,6 @@ Step 1. Create a virtual environment in the root of the project folder virtualen
       <guid>https://vacoj.github.io/project/mindbodyapigolang/</guid>
       <description>This is a wrapper around the SOAP API XML contracts available to Mindbody API partners, written in Go.
 Getting Started Install packages for each service you wish to use go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/siteservice&amp;quot; go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/staffservice&amp;quot; go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/clientservice&amp;quot; go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/classservice&amp;quot; go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/saleservice&amp;quot; go get -u &amp;quot;github.com/vacoj/Mindbody-API-Golang/appointmentservice&amp;quot; go get -u &amp;quot;github.com/vacoj/wsdl2go&amp;quot; go get -u &amp;quot;github.com/vacoj/wsdl2go/soap&amp;quot;  Follow this pattern to make requests and parse calls func makeGetSitesCall() { cli := soap.</description>
-    </item>
-    
-    <item>
-      <title>Pirrigo</title>
-      <link>https://vacoj.github.io/project/pirrigo/</link>
-      <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
-      
-      <guid>https://vacoj.github.io/project/pirrigo/</guid>
-      <description>PirriGo - Irrigation and garden management application, in Go and Angular. Based on Pirri.
-Live Demo: http://pirri.vacovsky.us login/password are demo / demo Screenshots Login page 
-Main / Stations 
-Calendar 
-Station Scheduler 
-History of Activity 
-Charted Run Stats 
-Usage 
-Features  Activate irrigation zones on a schedule, or manually Track total seconds spent watering by zone, day of the week, and other metrics Estimate monthly costs to operate your irrigation system Using WeatherUnderground, leverage current weather data to automatically regulate watering (increase in heat waves, reduce when rain will do the job for you)  Setup Clone repository to your Pi git clone https://github.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://vacoj.github.io/post/my-first-real-post/</link>
-      <pubDate>Tue, 26 Sep 2017 08:46:56 -0700</pubDate>
-      
-      <guid>https://vacoj.github.io/post/my-first-real-post/</guid>
-      <description>&lt;p&gt;This is my first post!&lt;/p&gt;
-
-&lt;p&gt;This is &lt;a href=&#34;https://github.com/vacoj/&#34;&gt;my github&lt;/a&gt; pages site.  Built using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, and that&amp;rsquo;s kinda nifty.&lt;/p&gt;</description>
     </item>
     
   </channel>

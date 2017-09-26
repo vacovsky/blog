@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>stupid _ prizes</title>
-    <link>https://vacoj.github.io/</link>
-    <description>Recent content on stupid _ prizes</description>
+    <title>Projects on stupid _ prizes</title>
+    <link>https://vacoj.github.io/project/</link>
+    <description>Recent content in Projects on stupid _ prizes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 26 Sep 2017 12:25:05 -0700</lastBuildDate>
     
-	<atom:link href="https://vacoj.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vacoj.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -48,17 +48,6 @@ History of Activity
 Charted Run Stats 
 Usage 
 Features  Activate irrigation zones on a schedule, or manually Track total seconds spent watering by zone, day of the week, and other metrics Estimate monthly costs to operate your irrigation system Using WeatherUnderground, leverage current weather data to automatically regulate watering (increase in heat waves, reduce when rain will do the job for you)  Setup Clone repository to your Pi git clone https://github.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://vacoj.github.io/post/my-first-real-post/</link>
-      <pubDate>Tue, 26 Sep 2017 08:46:56 -0700</pubDate>
-      
-      <guid>https://vacoj.github.io/post/my-first-real-post/</guid>
-      <description>&lt;p&gt;This is my first post!&lt;/p&gt;
-
-&lt;p&gt;This is &lt;a href=&#34;https://github.com/vacoj/&#34;&gt;my github&lt;/a&gt; pages site.  Built using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, and that&amp;rsquo;s kinda nifty.&lt;/p&gt;</description>
     </item>
     
   </channel>
