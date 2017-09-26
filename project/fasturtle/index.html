@@ -4,9 +4,9 @@
     <meta name="generator" content="Hugo 0.28" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>stupid _ prizes</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="projects, technology, ">
+    <title>Fasturtle | stupid _ prizes</title>
+    <meta name="description" content="A detokenization tool for configuration files and Madlibs, with support for Chef data bags.">
+    <meta name="keywords" content="Chef, Configuration, Databags, XML, Golang, Go, web.config">
     
     
     
@@ -16,14 +16,16 @@
   <meta name="author" content="">
 
 
-    <meta property="og:title" content="stupid _ prizes" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://vacoj.github.io/" />
+    <meta property="og:title" content="Fasturtle" />
+<meta property="og:description" content="A detokenization tool for configuration files and Madlibs, with support for Chef data bags." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vacoj.github.io/project/fasturtle/" />
 
 
 
-<meta property="og:updated_time" content="2017-09-26T15:19:24-07:00"/>
+<meta property="article:published_time" content="2017-09-26T15:19:24-07:00"/>
+<meta property="article:modified_time" content="2017-09-26T15:19:24-07:00"/>
+
 
 
 
@@ -36,25 +38,17 @@
 
     
 
+
+
   <meta property="og:image" content="https://source.unsplash.com/category/technology/2000x1322">
-
-
 
 
     <meta name="theme-color" content="#000">
 
     
-      
-
-
-
-
     
     
-    
-      <link href="https://vacoj.github.io/index.xml" rel="alternate" type="application/rss+xml" title="stupid _ prizes" />
-    
-    <link rel="canonical" href="https://vacoj.github.io/">
+    <link rel="canonical" href="https://vacoj.github.io/project/fasturtle/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -144,11 +138,11 @@ article [itemprop="description"] {
   <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
     
     
-      <a itemprop="url" class="active" href="/"><span itemprop="name">Home</span></a>
+      <a itemprop="url" class="" href="/"><span itemprop="name">Home</span></a>
     
       <a itemprop="url" class="" href="/post/"><span itemprop="name">Posts</span></a>
     
-      <a itemprop="url" class="" href="/project/"><span itemprop="name">Projects</span></a>
+      <a itemprop="url" class="active" href="/project/"><span itemprop="name">Projects</span></a>
     
       <a itemprop="url" class="" href="/tags"><span itemprop="name">Tags</span></a>
     
@@ -158,59 +152,154 @@ article [itemprop="description"] {
 </header>
     <main>
   <header>
-    <h1>stupid _ prizes</h1>
+    <h1>Fasturtle</h1>
   </header>
   
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/post/my-first-real-post/">Hello World</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>1 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
 
-  Published: <time datetime="2017-09-26T08:46:56-07:00">26 Sep, 2017</time>
+<p>This tool&rsquo;s input files can be easily generated from existing web.config files by using <a href="https://github.com/vacoj/shinroller">ShinRoller</a>. (<a href="https://github.com/vacoj/shinroller">https://github.com/vacoj/shinroller</a>)</p>
 
-</p>
-    
-  </header>
-  
-    <blockquote itemprop="headline">First post with negative value.</blockquote>
-  
-  <div itemprop="description">
-    <p>This is my first post!</p>
+<h2 id="installation">Installation</h2>
 
-<p>This is <a href="https://github.com/vacoj/">my github</a> pages site.  Built using <a href="https://gohugo.io">Hugo</a>, and that&rsquo;s kinda nifty.</p>
-  </div>
-  
-    <nav class="readmore"><a itemprop="url" href="/post/my-first-real-post/">Read More&nbsp;&raquo;</a></nav>
-  
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2017-09-26T08:46:56-07:00">
-  <meta itemprop="dateModified" content="2017-09-26T08:46:56-07:00">
-  
-    <meta itemprop="image" content="https://source.unsplash.com/category/technology/1600x900">
-  
-</article>
+<pre><code class="language-bash">go get -u github.com/vacoj/fasturtle
+go get -u github.com/vacoj/shinroller   # recommended
+</code></pre>
 
-  
+<h2 id="usage">Usage</h2>
+
+<h3 id="cli-help">CLI Help</h3>
+
+<pre><code class="language-text">Usage of fasturtle:
+
+  -assemblybindingssource string
+        The path to a configuration file containing the correct assembly bindings for the project.  This was added to solve for an issue where bindings set in a base config didn't match thoseset in the token config.  Default is an empty string.
+        
+  -buffer string
+        Characters used to buffer the keys within the input file.  The default value is an empty string.  Example: &quot;__mykey__&quot; (not used if --buffer-left or --buffer-right are provided).
+
+  -bufferleft string
+        Characters used to buffer the keys within the input file on the left side of a token key.  The default value is an empty string.  Example: &quot;{{mykey&quot; (usually used in conjunction with --buffer-left).
+
+  -bufferright string
+        Characters used to buffer the keys within the input file on the right side of a token key.  The default value is an empty string.  Example: &quot;mykey}}&quot; (usually used in conjunction with --buffer-left).
+
+  -databag string
+        Name of the Chef data bag containing the tokenized values.  Under the hood, this relies on your environment having a properly configured knife.rb and necessary certs in place to connect to the Chef server.  Alternately, use --tokens to specify a json file.
+
+  -databagsecret string
+        Path to the data bag secret.  Only necessary if you use encrypted data bags.
+
+  -extract
+        If true, enters extract mode.  In extract mode, the output file or stdout becomes a list of the tokens found within the input file.
+
+  -input string
+        Path the tokenized input file.
+
+  -output string
+        Destination path and file name for the detokenized file.  If not set, detokenized file is printed to stdout.
+
+  -tokens string
+        Path to the JSON key-value pair set(s) to be used for detokenization of the input file.  For multiple files, separate file paths with a comma (,).  If the same key exists in one or more of the files, then the file furthest to the right takes precendece (overrides) the previous.
+        
+  -unsafe
+        If true, will not throw error if all tokens are not replaced.  Default is false, and if a token still exists after detokenization, an error will be thro
+wn.
+</code></pre>
+
+<p>Pro-tip: Don&rsquo;t use <code>$</code> or <code>*</code> in your buffer characters.  It&rsquo;s just a bad idea, and I&rsquo;m not accounting for it.</p>
+
+<h3 id="detokenize-syntax">Detokenize syntax</h3>
+
+<h4 id="local-token-files-in-json-format">Local token files in JSON format</h4>
+
+<p>Note:  this method supports a form of value overrides.  Values duplicated in JSON files later in the list will override values declared in earlier in the list.</p>
+
+<pre><code class="language-bash">fasturtle --input=&quot;input.xml&quot; --output=&quot;output.xml&quot; --tokens=&quot;token.json,token2.json&quot; --buffer=&quot;__&quot;
+</code></pre>
+
+<h4 id="using-an-assembly-binding-source-config-file">Using an assembly binding source config file</h4>
+
+<pre><code class="language-bash">fasturtle --input=&quot;tokenizedDemo.xml&quot; --tokens=&quot;tokensDemo.json&quot; --buffer=&quot;__&quot; --assembly-bindings-source=&quot;tokenizedDemoAssemblies.xml&quot; --unsafe
+</code></pre>
+
+<h4 id="using-unencrypted-chef-data-bags">Using <em>Unencrypted</em> Chef Data Bags</h4>
+
+<pre><code class="language-bash">fasturtle --input=&quot;input.xml&quot; --output=&quot;output.xml&quot; --databag=&quot;_default&quot; --buffer=&quot;__&quot;
+</code></pre>
+
+<h4 id="using-encrypted-chef-data-bags">Using <em>Encrypted</em> Chef Data Bags</h4>
+
+<pre><code class="language-bash">fasturtle --input=&quot;input.xml&quot; --output=&quot;output.xml&quot; --databag=&quot;_default&quot; --data-secret=&quot;my_secret_file&quot; --buffer=&quot;__&quot;
+</code></pre>
+
+<h3 id="extract-tokens-syntax">Extract tokens syntax</h3>
+
+<pre><code class="language-bash">fasturtle --extract --buffer-left=&quot;__&quot; --buffer-right=&quot;__&quot; --input=&quot;input.xml&quot; --output=&quot;output.json&quot;
+# --output is optional, but if provided, and if the file extension ends in &quot;.json&quot;, the keys will be formatted as JSON.
+# for example: {&quot;myintkey&quot;:&quot;&quot;,&quot;mykey&quot;:&quot;&quot;,&quot;myotherkey&quot;:&quot;&quot;}
+# This makes it easy to create a tokens file template, since you only need to plug in the values.
+</code></pre>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="detokenize">Detokenize</h3>
+
+<p>Token File:</p>
+
+<pre><code class="language-json">file 1
+{
+    &quot;mykey&quot;: &quot;some important value&quot;,
+    &quot;myotherkey&quot;: &quot;this other thing&quot;,
+    &quot;myintkey&quot;: 444,
+    &quot;pirri&quot;: &quot;http://pirri.vacovsky.us&quot;
+}
+file 2
+{
+    &quot;secondfilekey&quot;: &quot;second file, so crazy!&quot;,
+    &quot;myintkey&quot;: 15,
+}
+</code></pre>
+
+<p>Tokenized Input:</p>
+
+<pre><code class="language-xml">&lt;someXML name=&quot;something&quot; value=__mykey__&gt;
+&lt;someXML name=&quot;secondfilekey&quot; value=__secondfilekey__&gt;
+&lt;someXML name=&quot;theotherthing&quot; value=__myotherkey__&gt;
+&lt;someXML name=&quot;thisshouldbeanint&quot; value=__myintkey__&gt;
+&lt;someXML name=&quot;pirri&quot; value=__pirri__&gt;
+</code></pre>
+
+<p>Detokenized Output:</p>
+
+<pre><code class="language-xml">&lt;someXML name=&quot;something&quot; value=&quot;some important value&quot;&gt;
+&lt;someXML name=&quot;secondfilekey&quot; value=&quot;second file, so crazy!&quot;&gt;
+&lt;someXML name=&quot;theotherthing&quot; value=&quot;this other thing&quot;&gt;
+&lt;someXML name=&quot;thisshouldbeanint&quot; value=15&gt;  &lt;!-- this value is 15 because token2.json overrode the value of __myintkey__ --&gt;
+&lt;someXML name=&quot;pirri&quot; value=&quot;http://pirri.vacovsky.us&quot;&gt;
+</code></pre>
+
+<h3 id="extract-tokens">Extract tokens</h3>
+
+<p>Tokenized Input:</p>
+
+<pre><code class="language-xml">&lt;someXML name=&quot;something&quot; value=__mykey__&gt;
+&lt;someXML name=&quot;theotherthing&quot; value=__myotherkey__&gt;
+&lt;someXML name=&quot;thisshouldbeanint&quot; value=__myintkey__&gt;
+</code></pre>
+
+<p>Outputs a list of used tokens:</p>
+
+<pre><code class="language-bash">__mykey__
+__myotherkey__
+__myintkey__
+</code></pre>
+
+<p>or</p>
+
+<pre><code class="language-javascript">{&quot;myintkey&quot;:&quot;&quot;,&quot;mykey&quot;:&quot;&quot;,&quot;myotherkey&quot;:&quot;&quot;}  // notice we remove the buffer chars
+</code></pre>
+
 </main>
     <footer>
-  <nav>
-  <p>
-    
-    <span>Page 1 of 1</span>
-    
-  </p>
-</nav>
-
   
 
 </footer>
