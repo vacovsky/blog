@@ -6,10 +6,19 @@
     <description>Recent content in Tags on stupid _ prizes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 26 Sep 2017 12:25:05 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 26 Sep 2017 11:30:21 -0700</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Angularjs</title>
+      <link>https://vacoj.github.io/tags/angularjs/</link>
+      <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/angularjs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Api</title>
@@ -26,6 +35,15 @@
       <pubDate>Tue, 26 Sep 2017 12:14:47 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/corporate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diy</title>
+      <link>https://vacoj.github.io/tags/diy/</link>
+      <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/diy/</guid>
       <description></description>
     </item>
     
@@ -48,11 +66,47 @@
     </item>
     
     <item>
+      <title>Go</title>
+      <link>https://vacoj.github.io/tags/go/</link>
+      <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://vacoj.github.io/tags/golang/</link>
+      <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hello</title>
       <link>https://vacoj.github.io/tags/hello/</link>
       <pubDate>Tue, 26 Sep 2017 08:46:56 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/hello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Irrigation</title>
+      <link>https://vacoj.github.io/tags/irrigation/</link>
+      <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/irrigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Low Volt a/C</title>
+      <link>https://vacoj.github.io/tags/low-volt-a/c/</link>
+      <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/low-volt-a/c/</guid>
       <description></description>
     </item>
     
@@ -71,6 +125,24 @@
       <pubDate>Tue, 26 Sep 2017 12:25:05 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://vacoj.github.io/tags/raspberry-pi/</link>
+      <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sprinkler</title>
+      <link>https://vacoj.github.io/tags/sprinkler/</link>
+      <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/sprinkler/</guid>
       <description></description>
     </item>
     

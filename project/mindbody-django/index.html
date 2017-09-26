@@ -1,126 +1,67 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-<meta charset="utf-8" />
-<meta name="author" content="" />
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
 <meta name="generator" content="Hugo 0.28" />
-
-<link rel="canonical" href="https://vacoj.github.io/project/mindbody-django/">
-<base href="https://vacoj.github.io" />
-<meta property="og:title" content="Mindbody Django" />
-<meta property="og:description" content="MINDBODY Django Demo
-A demonstration showing how to build an integration with the MINDBODY SOAP API using Python 3 and Django 1.8. I did this in my spare time, so bugs are likely. I&rsquo;ll try to fix them as I find them.
-Initial Setup - Linux (If someone wants to make a quick setup for windows, that would be helpful.)
-Step 1. Create a virtual environment in the root of the project folder virtualenv -p /usr/bin/python3." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://vacoj.github.io/project/mindbody-django/" />
-
-
-
-<meta property="article:published_time" content="2017-09-26T12:25:05-07:00"/>
-<meta property="article:modified_time" content="2017-09-26T12:25:05-07:00"/>
-
-
-
-
-
-
-
-
-
-
-
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Mindbody Django"/>
-<meta name="twitter:description" content="MINDBODY Django Demo
-A demonstration showing how to build an integration with the MINDBODY SOAP API using Python 3 and Django 1.8. I did this in my spare time, so bugs are likely. I&rsquo;ll try to fix them as I find them.
-Initial Setup - Linux (If someone wants to make a quick setup for windows, that would be helpful.)
-Step 1. Create a virtual environment in the root of the project folder virtualenv -p /usr/bin/python3."/>
-
-
-
-<meta itemprop="name" content="Mindbody Django">
-<meta itemprop="description" content="MINDBODY Django Demo
-A demonstration showing how to build an integration with the MINDBODY SOAP API using Python 3 and Django 1.8. I did this in my spare time, so bugs are likely. I&rsquo;ll try to fix them as I find them.
-Initial Setup - Linux (If someone wants to make a quick setup for windows, that would be helpful.)
-Step 1. Create a virtual environment in the root of the project folder virtualenv -p /usr/bin/python3.">
-
-
-<meta itemprop="dateModified" content="2017-09-26T12:25:05-07:00" />
-<meta itemprop="wordCount" content="347">
-
-
-
-<meta itemprop="keywords" content="Mindbody,Django,Python,API," />
-
-
-<link rel="stylesheet" href="css/layout.css" />
-<link rel="stylesheet" href="css/color-dark.css" />
-
-
-
-<title>
-
-
-     Mindbody Django 
-
-</title>
-
-<script src="js/highlight.min.js"></script>
-<link rel="stylesheet" href="css/tomorrow-night.min.css" />
-<script>hljs.initHighlightingOnLoad();</script>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://vacoj.github.io/css/style.css" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="https://vacoj.github.io/index.xml" type="application/rss+xml" title="stupid _ prizes">
+<title>Mindbody Django - stupid _ prizes</title>
 </head>
-
-
 <body>
-<div class="main">
+
 <header>
-
-<div class="header-bar">
-
-  <nav>
-    <div class="siteTitle">
-      <a href="https://vacoj.github.io">stupid _ prizes</a>
-    </div> 
-
-    
-    
-    <a class="nav-item" href="/"><div class="nav-item-title">Home</div></a>
-    
-    <a class="nav-item" href="/post/"><div class="nav-item-title">Posts</div></a>
-    
-    <a class="nav-item active" href="/project/"><div class="nav-item-title">Projects</div></a>
-    
-
-  </nav>
-</div>
-
-  
-<div class="social-links-header">
-
-  
-
-  
-
-  
-
-  
-
-  
-
-</div>
-
-
+  <div class="container clearfix">
+    <a class="path" href="https://vacoj.github.io">[stupid _ prizes]</a>
+    <span class="caret"># _</span>
+    <div class="right">
+      
+    </div>
+  </div>
 </header>
 
+<div class="container">
 
-<article class="post">
-    <h1 class="title"> Mindbody Django </h1>
-    <div class="content"> 
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2017-09-26">September 26, 2017</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="https://vacoj.github.iocategories/projects">Projects</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="https://vacoj.github.iotags/mindbody">Mindbody</a>
+
+        <a href="https://vacoj.github.iotags/django">Django</a>
+
+        <a href="https://vacoj.github.iotags/python">Python</a>
+
+        <a href="https://vacoj.github.iotags/api">API</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">Mindbody Django</h1>
+  <section class="body" itemprop="articleBody">
+    
 
 <p><a href="https://mbodjango.herokuapp.com">MINDBODY Django Demo</a></p>
 
@@ -180,68 +121,20 @@ python3 manage.py runserver
 </code></pre>
 
 <h3 id="step-6-once-the-application-is-running-browse-to-localhost-8000-to-see-the-results">Step 6. Once the application is running, browse to localhost:8000 to see the results.</h3>
- </div>
-    <footer class="post-footer">
 
-  <div class="post-footer-data">
-    
-<div class="tags">
-    
-      <div class="tag">
-        <a href="/tags/mindbody">#Mindbody</a>
-      </div>
-    
-      <div class="tag">
-        <a href="/tags/django">#Django</a>
-      </div>
-    
-      <div class="tag">
-        <a href="/tags/python">#Python</a>
-      </div>
-    
-      <div class="tag">
-        <a href="/tags/api">#API</a>
-      </div>
-    
-</div>
-
-    <div class="date"> Sep 26, 2017 </div>
-  </div>
-
-</footer>
-
-
-
+  </section>
 </article>
 
-  <footer>
+</main>
 
-  <div class="social-links-footer">
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  <div class="social-link">
-  <a href="https://vacoj.github.io/index.xml" target="_blank">RSS</a>
-  </div>
 
 </div>
 
-
-  <div class="copyright">  </div>
-
-  <div class="poweredby">
-    Powered by <a href="https://gohugo.io/">Hugo</a>.
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2017  stupid _ prizes - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
   </div>
-
-  </footer>
+</footer>
 
 </body>
 </html>
