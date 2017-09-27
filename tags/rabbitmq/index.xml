@@ -21,22 +21,5 @@
  When passing colors into the message, use the CSS3 color names: [&amp;lsquo;black&amp;rsquo;, &amp;lsquo;red&amp;rsquo;, &amp;lsquo;cornflowerblue&amp;rsquo;, &amp;lsquo;paleturquoise&amp;rsquo;].</description>
     </item>
     
-    <item>
-      <title>Pirrigo</title>
-      <link>https://vacoj.github.io/project/pirrigo/</link>
-      <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
-      
-      <guid>https://vacoj.github.io/project/pirrigo/</guid>
-      <description>PirriGo - Irrigation and garden management application, in Go and Angular. Based on Pirri.
-Live Demo: http://pirri.vacovsky.us login/password are demo / demo Screenshots Login page 
-Main / Stations 
-Calendar 
-Station Scheduler 
-History of Activity 
-Charted Run Stats 
-Usage 
-Features  Activate irrigation zones on a schedule, or manually Track total seconds spent watering by zone, day of the week, and other metrics Estimate monthly costs to operate your irrigation system Using WeatherUnderground, leverage current weather data to automatically regulate watering (increase in heat waves, reduce when rain will do the job for you)  Setup Clone repository to your Pi git clone https://github.</description>
-    </item>
-    
   </channel>
 </rss>
