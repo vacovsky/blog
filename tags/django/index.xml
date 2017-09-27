@@ -6,6 +6,7 @@
     <description>Recent content in Django on stupid _ prizes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <copyright>Copyright © 2017 Joe Vacovsky Jr.</copyright>
     <lastBuildDate>Tue, 26 Sep 2017 12:25:05 -0700</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +14,10 @@
     
     <item>
       <title>Mindbody Django</title>
-      <link>https://vacoj.github.io/project/mindbody-django/</link>
+      <link>https://vacoj.github.io/projects/mindbody-django/</link>
       <pubDate>Tue, 26 Sep 2017 12:25:05 -0700</pubDate>
       
-      <guid>https://vacoj.github.io/project/mindbody-django/</guid>
+      <guid>https://vacoj.github.io/projects/mindbody-django/</guid>
       <description>MINDBODY Django Demo
 A demonstration showing how to build an integration with the MINDBODY SOAP API using Python 3 and Django 1.8. I did this in my spare time, so bugs are likely. I&amp;rsquo;ll try to fix them as I find them.
 Initial Setup - Linux (If someone wants to make a quick setup for windows, that would be helpful.)

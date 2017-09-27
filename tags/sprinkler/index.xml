@@ -6,6 +6,7 @@
     <description>Recent content in Sprinkler on stupid _ prizes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <copyright>Copyright © 2017 Joe Vacovsky Jr.</copyright>
     <lastBuildDate>Tue, 26 Sep 2017 11:30:21 -0700</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/tags/sprinkler/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +14,10 @@
     
     <item>
       <title>Pirrigo</title>
-      <link>https://vacoj.github.io/project/pirrigo/</link>
+      <link>https://vacoj.github.io/projects/pirrigo/</link>
       <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
       
-      <guid>https://vacoj.github.io/project/pirrigo/</guid>
+      <guid>https://vacoj.github.io/projects/pirrigo/</guid>
       <description>PirriGo - Irrigation and garden management application, in Go and Angular. Based on Pirri.
 Live Demo: http://pirri.vacovsky.us login/password are demo / demo Screenshots Login page 
 Main / Stations 

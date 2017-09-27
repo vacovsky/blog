@@ -6,6 +6,7 @@
     <description>Recent content in Raspberry Pi on stupid _ prizes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <copyright>Copyright © 2017 Joe Vacovsky Jr.</copyright>
     <lastBuildDate>Tue, 26 Sep 2017 18:41:13 -0700</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
@@ -13,20 +14,20 @@
     
     <item>
       <title>Neatlights</title>
-      <link>https://vacoj.github.io/project/neatlights/</link>
+      <link>https://vacoj.github.io/projects/neatlights/</link>
       <pubDate>Tue, 26 Sep 2017 18:41:13 -0700</pubDate>
       
-      <guid>https://vacoj.github.io/project/neatlights/</guid>
+      <guid>https://vacoj.github.io/projects/neatlights/</guid>
       <description>The Gist of It In the config/config.py file, set up appropriate info for the redis pubsub instance you want to listen on. Posting a json blob/python dictionary on the specified channel will result in the listening thread parsing the message, and configuring the LED strand as specified. Examples can be found in config/blink_patterns.py.
  When passing colors into the message, use the CSS3 color names: [&amp;lsquo;black&amp;rsquo;, &amp;lsquo;red&amp;rsquo;, &amp;lsquo;cornflowerblue&amp;rsquo;, &amp;lsquo;paleturquoise&amp;rsquo;].</description>
     </item>
     
     <item>
       <title>Pirrigo</title>
-      <link>https://vacoj.github.io/project/pirrigo/</link>
+      <link>https://vacoj.github.io/projects/pirrigo/</link>
       <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
       
-      <guid>https://vacoj.github.io/project/pirrigo/</guid>
+      <guid>https://vacoj.github.io/projects/pirrigo/</guid>
       <description>PirriGo - Irrigation and garden management application, in Go and Angular. Based on Pirri.
 Live Demo: http://pirri.vacovsky.us login/password are demo / demo Screenshots Login page 
 Main / Stations 
