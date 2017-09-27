@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on stupid _ prizes</title>
-    <link>https://vacoj.github.io/tags/python/</link>
-    <description>Recent content in Python on stupid _ prizes</description>
+    <title>Rabbitmq on stupid _ prizes</title>
+    <link>https://vacoj.github.io/tags/rabbitmq/</link>
+    <description>Recent content in Rabbitmq on stupid _ prizes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 26 Sep 2017 18:41:13 -0700</lastBuildDate>
     
-	<atom:link href="https://vacoj.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vacoj.github.io/tags/rabbitmq/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,18 +19,6 @@
       <guid>https://vacoj.github.io/project/neatlights/</guid>
       <description>The Gist of It In the config/config.py file, set up appropriate info for the redis pubsub instance you want to listen on. Posting a json blob/python dictionary on the specified channel will result in the listening thread parsing the message, and configuring the LED strand as specified. Examples can be found in config/blink_patterns.py.
  When passing colors into the message, use the CSS3 color names: [&amp;lsquo;black&amp;rsquo;, &amp;lsquo;red&amp;rsquo;, &amp;lsquo;cornflowerblue&amp;rsquo;, &amp;lsquo;paleturquoise&amp;rsquo;].</description>
-    </item>
-    
-    <item>
-      <title>Mindbody Django</title>
-      <link>https://vacoj.github.io/project/mindbody-django/</link>
-      <pubDate>Tue, 26 Sep 2017 12:25:05 -0700</pubDate>
-      
-      <guid>https://vacoj.github.io/project/mindbody-django/</guid>
-      <description>MINDBODY Django Demo
-A demonstration showing how to build an integration with the MINDBODY SOAP API using Python 3 and Django 1.8. I did this in my spare time, so bugs are likely. I&amp;rsquo;ll try to fix them as I find them.
-Initial Setup - Linux (If someone wants to make a quick setup for windows, that would be helpful.)
-Step 1. Create a virtual environment in the root of the project folder virtualenv -p /usr/bin/python3.</description>
     </item>
     
   </channel>

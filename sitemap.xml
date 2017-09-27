@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vacoj.github.io/project/neatlights/</loc>
+    <lastmod>2017-09-26T18:41:13-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/project/fasturtle/</loc>
     <lastmod>2017-09-26T15:19:24-07:00</lastmod>
   </url>
@@ -70,7 +75,7 @@
   
   <url>
     <loc>https://vacoj.github.io/tags/diy/</loc>
-    <lastmod>2017-09-26T11:30:21-07:00</lastmod>
+    <lastmod>2017-09-26T18:41:13-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -105,6 +110,12 @@
   </url>
   
   <url>
+    <loc>https://vacoj.github.io/tags/led/</loc>
+    <lastmod>2017-09-26T18:41:13-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/tags/low-volt-a/c/</loc>
     <lastmod>2017-09-26T11:30:21-07:00</lastmod>
     <priority>0</priority>
@@ -130,25 +141,31 @@
   
   <url>
     <loc>https://vacoj.github.io/project/</loc>
-    <lastmod>2017-09-26T15:19:24-07:00</lastmod>
+    <lastmod>2017-09-26T18:41:13-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://vacoj.github.io/categories/projects/</loc>
-    <lastmod>2017-09-26T12:25:05-07:00</lastmod>
+    <lastmod>2017-09-26T18:41:13-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://vacoj.github.io/tags/python/</loc>
-    <lastmod>2017-09-26T12:25:05-07:00</lastmod>
+    <lastmod>2017-09-26T18:41:13-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vacoj.github.io/tags/rabbitmq/</loc>
+    <lastmod>2017-09-26T18:41:13-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://vacoj.github.io/tags/raspberry-pi/</loc>
-    <lastmod>2017-09-26T11:30:21-07:00</lastmod>
+    <lastmod>2017-09-26T18:41:13-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -184,7 +201,7 @@
   
   <url>
     <loc>https://vacoj.github.io/</loc>
-    <lastmod>2017-09-26T15:19:24-07:00</lastmod>
+    <lastmod>2017-09-26T18:41:13-07:00</lastmod>
     <priority>0</priority>
   </url>
   
