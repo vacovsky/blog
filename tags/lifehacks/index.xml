@@ -19,7 +19,8 @@
       
       <guid>https://vacoj.github.io/posts/resume_updating/</guid>
       <description>I recently updated my resume. A few versions of my old CV and plain old resume were floating around in various cloud storage products, but thought it was time to try something new (although, it&amp;rsquo;s really not new at all).
-\newcommand{\resumeSubheading}[4]{ \vspace{-1pt}\item \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r} \textbf{#1} &amp;amp; #2 \\ \textit{\small#3} &amp;amp; \textit{\small #4} \\ \end{tabular*}\vspace{-5pt} }  There are so many resume templates in LaTeX that I had trouble choosing which best suited me - just search &amp;ldquo;latex resume&amp;rdquo; in github.</description>
+\newcommand{\resumeSubheading}[4]{ \vspace{-1pt}\item \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r} \textbf{#1} &amp;amp; #2 \\ \textit{\small#3} &amp;amp; \textit{\small #4} \\ \end{tabular*}\vspace{-5pt} }  Above snipped was taken from https://github.com/sb2nov/resume - I chose this one.
+There are so many resume templates in LaTeX that I had trouble choosing which best suited me - just search &amp;ldquo;latex resume&amp;rdquo; in github.</description>
     </item>
     
   </channel>
