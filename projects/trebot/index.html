@@ -16,23 +16,23 @@
 <meta property="og:site_name" content="stupid _ prizes" />
 <meta property="og:locale" content="nn_NO" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://vacoj.github.io/projects/" />
-<meta property="og:title" content="Projects" />
-<meta property="twitter:title" content="Projects">
+<meta property="og:url" content="https://vacoj.github.io/projects/trebot/" />
+<meta property="og:title" content="Trebot" />
+<meta property="twitter:title" content="Trebot">
 
     <meta property="og:image" content="https://vacoj.github.io/img/banner.png">
     <meta property="twitter:card" content="summary">
     <meta property="twitter:image" content="https://vacoj.github.io/img/banner.png">
 
-<meta property="og:description" content="">
-<meta property="twitter:description" content="">
+<meta property="og:description" content="slick trviia bot for slack">
+<meta property="twitter:description" content="slick trviia bot for slack">
 <title>
 
 
-     stupid _ prizes - Projects 
+     stupid _ prizes - Trebot 
 
 </title>
-<link rel="canonical" href="https://vacoj.github.io/projects/">
+<link rel="canonical" href="https://vacoj.github.io/projects/trebot/">
 
 
 <style media="screen">
@@ -1013,8 +1013,6 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 
 
 
-  <link href="https://vacoj.github.io/projects/index.xml" rel="alternate" type="application/rss+xml" title="stupid _ prizes" />
-
 
 </head>
 
@@ -1022,7 +1020,7 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 <body>
 
 
-<section class="header header-home">
+<section class="header">
 
     <div class="container">
         <a href="https://vacoj.github.io/"><img class="logo" src="https://vacoj.github.io/img/logo.png" alt="logo" /></a>
@@ -1054,77 +1052,99 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 <section class="main">
     <div class="container">
         <div class="content">
-            
+            <div class="page-heading">
+
+    Trebot
+
+</div>
+
             <div class="markdown">
                 
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </div>
-            <div class="posts">
-            
-                <div class="page-heading">Projects</div>
-                <ul>
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 27, 2017</span>
-    <a href="https://vacoj.github.io/projects/trebot/"><span>Trebot</span></a>
-</li>
+    
+    
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2017</span>
-    <a href="https://vacoj.github.io/projects/neatlights/"><span>Neatlights</span></a>
-</li>
+<p><a href="https://github.com/vacoj/trebot">https://github.com/vacoj/trebot</a></p>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2017</span>
-    <a href="https://vacoj.github.io/projects/fasturtle/"><span>Fasturtle</span></a>
-</li>
+<h4 id="for-go-chat-bot-https-github-com-go-chat-bot-bot">for go-chat-bot <a href="https://github.com/go-chat-bot/bot">https://github.com/go-chat-bot/bot</a></h4>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2017</span>
-    <a href="https://vacoj.github.io/projects/mindbody-django/"><span>Mindbody Django</span></a>
-</li>
+<h2 id="usage-bot-interaction">Usage / Bot Interaction</h2>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2017</span>
-    <a href="https://vacoj.github.io/projects/mindbodyapigolang/"><span>Mindbody-API-Golang</span></a>
-</li>
+<h3 id="get-a-new-question">Get a new question</h3>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2017</span>
-    <a href="https://vacoj.github.io/projects/pirrigo/"><span>Pirrigo</span></a>
-</li>
+<pre><code class="language-slack">!trivia new
+</code></pre>
 
-                        
-                    
-                </ul>
-            
+<p><img src="https://raw.githubusercontent.com/vacoj/trebot/master/img/s2.png"></p>
+
+<h3 id="answer-a-question">Answer a question</h3>
+
+<pre><code class="language-slack">!trivia answer pineapple
+</code></pre>
+
+<p><img src="https://raw.githubusercontent.com/vacoj/trebot/master/img/s1.png"></p>
+
+<h3 id="view-the-scoreboard">View the Scoreboard</h3>
+
+<pre><code class="language-slack">!trivia scoreboard
+</code></pre>
+
+<pre><code class="language-text">+------+------------------+--------+---------+-------+-----+----------+
+| RANK |       USER       | SCORE  | CORRECT | WRONG | NEW | ACCURACY |
++------+------------------+--------+---------+-------+-----+----------+
+|    1 | casey            | 225300 |     164 |   122 |  15 |    0.573 |
+|    2 | viki             |  63800 |     111 |   234 |  42 |    0.322 |
+|    3 | vacoj            |  60700 |      40 |    65 |  16 |    0.381 |
+|    4 | bologna          |  58000 |      61 |   128 |  50 |    0.323 |
+|    5 | josh             |  55800 |      53 |   310 |  45 |    0.146 |
+|    6 | krem             |  38200 |      73 |   196 |  33 |    0.271 |
+|    7 | joey             |  18000 |       2 |     2 |   0 |    0.500 |
+|    8 | k-w              |   1000 |       0 |     0 |   0 |    0.000 |
++------+------------------+--------+---------+-------+-----+----------+
+</code></pre>
+
+<h3 id="view-about-information">View &ldquo;About&rdquo; information</h3>
+
+<pre><code class="language-slack">!trivia about
+</code></pre>
+
+<h2 id="setup-installation">Setup / Installation</h2>
+
+<h3 id="stand-alone">Stand Alone</h3>
+
+<pre><code class="language-bash">go get -u &quot;github.com/vacoj/trebot&quot;
+go get -u &quot;github.com/vacoj/trebot/trivia&quot;
+go get -u &quot;github.com/go-chat-bot/bot/slack&quot;
+# Set your bot token for slack as an environment variable called &quot;trebot&quot;
+export trebot=&quot;xxxx-yourslackbotkey&quot;
+trebot
+</code></pre>
+
+<h3 id="as-a-plugin-for-an-existing-bot">As a plugin for an existing bot</h3>
+
+<h4 id="install-plugin">Install plugin</h4>
+
+<pre><code class="language-bash">go get -u &quot;github.com/vacoj/trebot/trivia&quot;
+#Set your bot token for slack as an environment variable called &quot;trebot&quot;
+export trebot=&quot;xxxx-yourslackbotkey&quot;
+</code></pre>
+
+<h4 id="update-your-bot-main-to-include-the-plugin">Update your bot main to include the plugin</h4>
+
+<pre><code class="language-go">package main
+
+import (
+	&quot;os&quot;
+
+	_ &quot;github.com/vacoj/trebot/trivia&quot;
+	&quot;github.com/go-chat-bot/bot/slack&quot;
+)
+
+func main() {
+	slack.Run(os.Getenv(&quot;trebot&quot;))
+}
+</code></pre>
+
+
             </div>
         </div>
     </div>

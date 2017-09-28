@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vacoj.github.io/projects/trebot/</loc>
+    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/posts/resume_updating/</loc>
     <lastmod>2017-09-27T19:00:37-07:00</lastmod>
   </url>
@@ -46,6 +51,12 @@
   <url>
     <loc>https://vacoj.github.io/tags/api/</loc>
     <lastmod>2017-09-26T12:25:05-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vacoj.github.io/tags/bot/</loc>
+    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -105,13 +116,13 @@
   
   <url>
     <loc>https://vacoj.github.io/tags/go/</loc>
-    <lastmod>2017-09-26T15:19:24-07:00</lastmod>
+    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://vacoj.github.io/tags/golang/</loc>
-    <lastmod>2017-09-26T15:19:24-07:00</lastmod>
+    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -170,8 +181,14 @@
   </url>
   
   <url>
+    <loc>https://vacoj.github.io/categories/project/</loc>
+    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/projects/</loc>
-    <lastmod>2017-09-26T18:41:13-07:00</lastmod>
+    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -224,6 +241,18 @@
   </url>
   
   <url>
+    <loc>https://vacoj.github.io/tags/trebek/</loc>
+    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vacoj.github.io/tags/trivia/</loc>
+    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/tags/web.config/</loc>
     <lastmod>2017-09-26T15:19:24-07:00</lastmod>
     <priority>0</priority>
@@ -237,7 +266,7 @@
   
   <url>
     <loc>https://vacoj.github.io/</loc>
-    <lastmod>2017-09-27T19:00:37-07:00</lastmod>
+    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   

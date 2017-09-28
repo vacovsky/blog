@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>Bot</title>
+      <link>https://vacoj.github.io/tags/bot/</link>
+      <pubDate>Wed, 27 Sep 2017 20:16:23 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chef</title>
       <link>https://vacoj.github.io/tags/chef/</link>
       <pubDate>Tue, 26 Sep 2017 15:19:24 -0700</pubDate>
@@ -96,7 +105,7 @@
     <item>
       <title>Go</title>
       <link>https://vacoj.github.io/tags/go/</link>
-      <pubDate>Tue, 26 Sep 2017 15:19:24 -0700</pubDate>
+      <pubDate>Wed, 27 Sep 2017 20:16:23 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/go/</guid>
       <description></description>
@@ -105,7 +114,7 @@
     <item>
       <title>Golang</title>
       <link>https://vacoj.github.io/tags/golang/</link>
-      <pubDate>Tue, 26 Sep 2017 15:19:24 -0700</pubDate>
+      <pubDate>Wed, 27 Sep 2017 20:16:23 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/golang/</guid>
       <description></description>
@@ -225,6 +234,24 @@
       <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/sprinkler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trebek</title>
+      <link>https://vacoj.github.io/tags/trebek/</link>
+      <pubDate>Wed, 27 Sep 2017 20:16:23 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/trebek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trivia</title>
+      <link>https://vacoj.github.io/tags/trivia/</link>
+      <pubDate>Wed, 27 Sep 2017 20:16:23 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/trivia/</guid>
       <description></description>
     </item>
     
