@@ -18,7 +18,7 @@
       <pubDate>Sat, 30 Sep 2017 18:40:55 -0700</pubDate>
       
       <guid>https://vacoj.github.io/posts/mapping_dotnet_environments/</guid>
-      <description>&amp;ndash; VIEW DEMO SITE &amp;ndash;  The Problem Because it&amp;rsquo;s difficult to explain the complexities of software configuration to those who don&amp;rsquo;t need to understand it from the &amp;ldquo;city&amp;rdquo; perspective, but only see the &amp;ldquo;house&amp;rdquo; they are building; or to management who has little to know knowledge of &amp;ldquo;how the sausage is made&amp;rdquo;, and why configuration as code takes time. And, It&amp;rsquo;s not always as simple as a few text files with key values.</description>
+      <description>&amp;ndash; VIEW DEMO SITE &amp;ndash;  The Problem It&amp;rsquo;s often a challenge to explain the complexities of software configuration management to those who don&amp;rsquo;t need to understand it from the &amp;ldquo;city&amp;rdquo; perspective, but only see the &amp;ldquo;house&amp;rdquo; they are building; or to management who may not understand that configuration management takes time and shouldn&amp;rsquo;t be done hastily. It&amp;rsquo;s not always as simple as a few text files with key value pairs.</description>
     </item>
     
   </channel>
