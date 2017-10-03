@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2017 Joe Vacovsky Jr.</copyright>
-    <lastBuildDate>Wed, 27 Sep 2017 20:16:23 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 30 Sep 2017 20:18:18 -0700</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://vacoj.github.io/about/</link>
+      <pubDate>Sat, 30 Sep 2017 20:18:18 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/about/</guid>
+      <description>Adventures in turning other people&amp;rsquo;s automation problems into my own.</description>
+    </item>
+    
+    <item>
+      <title>Mapping .Net Environments with RollerCoaster</title>
+      <link>https://vacoj.github.io/posts/mapping_dotnet_environments/</link>
+      <pubDate>Sat, 30 Sep 2017 18:40:55 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/posts/mapping_dotnet_environments/</guid>
+      <description>&amp;ndash; VIEW DEMO SITE &amp;ndash;  The Problem Because it&amp;rsquo;s difficult to explain the complexities of software configuration to those who don&amp;rsquo;t need to understand it from the &amp;ldquo;city&amp;rdquo; perspective, but only see the &amp;ldquo;house&amp;rdquo; they are building; or to management who has little to know knowledge of &amp;ldquo;how the sausage is made&amp;rdquo;, and why configuration as code takes time. And, It&amp;rsquo;s not always as simple as a few text files with key values.</description>
+    </item>
     
     <item>
       <title>Trebot</title>
@@ -23,11 +41,11 @@ for go-chat-bot https://github.com/go-chat-bot/bot Usage / Bot Interaction Get a
     </item>
     
     <item>
-      <title>LaTeX Resume</title>
-      <link>https://vacoj.github.io/posts/resume_updating/</link>
+      <title>Resume as Code (LaTeX)</title>
+      <link>https://vacoj.github.io/posts/resume_as_code/</link>
       <pubDate>Wed, 27 Sep 2017 19:00:37 -0700</pubDate>
       
-      <guid>https://vacoj.github.io/posts/resume_updating/</guid>
+      <guid>https://vacoj.github.io/posts/resume_as_code/</guid>
       <description>I recently updated my resume. A few versions of my old CV and plain old resume were floating around in various cloud storage products, but thought it was time to try something new (although, it&amp;rsquo;s really not new at all).
 Also, interestingly enough, it&amp;rsquo;s pronounced &amp;ldquo;La Tech&amp;rdquo;:TeX (/ˈtɛx/ as in Greek, but often pronounced /tɛk/ in English) ... &#39;ch&#39; like in &#39;loch&#39;`
 \newcommand{\resumeSubheading}[4]{ \vspace{-1pt}\item \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r} \textbf{#1} &amp;amp; #2 \\ \textit{\small#3} &amp;amp; \textit{\small #4} \\ \end{tabular*}\vspace{-5pt} }  Above snipped was taken from https://github.</description>

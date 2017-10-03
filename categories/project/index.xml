@@ -7,19 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2017 Joe Vacovsky Jr.</copyright>
-    <lastBuildDate>Wed, 27 Sep 2017 20:16:23 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 30 Sep 2017 18:40:55 -0700</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/categories/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Trebot</title>
-      <link>https://vacoj.github.io/projects/trebot/</link>
-      <pubDate>Wed, 27 Sep 2017 20:16:23 -0700</pubDate>
+      <title>Mapping .Net Environments with RollerCoaster</title>
+      <link>https://vacoj.github.io/posts/mapping_dotnet_environments/</link>
+      <pubDate>Sat, 30 Sep 2017 18:40:55 -0700</pubDate>
       
-      <guid>https://vacoj.github.io/projects/trebot/</guid>
-      <description>https://github.com/vacoj/trebot
-for go-chat-bot https://github.com/go-chat-bot/bot Usage / Bot Interaction Get a new question !trivia new  Answer a question !trivia answer pineapple  View the Scoreboard !trivia scoreboard  +------+------------------+--------+---------+-------+-----+----------+ | RANK | USER | SCORE | CORRECT | WRONG | NEW | ACCURACY | +------+------------------+--------+---------+-------+-----+----------+ | 1 | casey | 225300 | 164 | 122 | 15 | 0.573 | | 2 | viki | 63800 | 111 | 234 | 42 | 0.</description>
+      <guid>https://vacoj.github.io/posts/mapping_dotnet_environments/</guid>
+      <description>&amp;ndash; VIEW DEMO SITE &amp;ndash;  The Problem Because it&amp;rsquo;s difficult to explain the complexities of software configuration to those who don&amp;rsquo;t need to understand it from the &amp;ldquo;city&amp;rdquo; perspective, but only see the &amp;ldquo;house&amp;rdquo; they are building; or to management who has little to know knowledge of &amp;ldquo;how the sausage is made&amp;rdquo;, and why configuration as code takes time. And, It&amp;rsquo;s not always as simple as a few text files with key values.</description>
     </item>
     
   </channel>
