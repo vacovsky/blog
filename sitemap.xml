@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vacoj.github.io/projects/rollercoaster/</loc>
+    <lastmod>2017-10-17T19:13:33-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/about/</loc>
     <lastmod>2017-09-30T20:18:18-07:00</lastmod>
   </url>
@@ -125,6 +130,12 @@
   </url>
   
   <url>
+    <loc>https://vacoj.github.io/tags/devops/</loc>
+    <lastmod>2017-10-17T19:13:33-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/tags/diy/</loc>
     <lastmod>2017-09-26T18:41:13-07:00</lastmod>
     <priority>0</priority>
@@ -150,7 +161,7 @@
   
   <url>
     <loc>https://vacoj.github.io/tags/go/</loc>
-    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
+    <lastmod>2017-10-17T19:13:33-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -168,7 +179,7 @@
   
   <url>
     <loc>https://vacoj.github.io/tags/hugo/</loc>
-    <lastmod>2017-09-30T18:40:55-07:00</lastmod>
+    <lastmod>2017-10-17T19:13:33-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -240,7 +251,7 @@
   
   <url>
     <loc>https://vacoj.github.io/projects/</loc>
-    <lastmod>2017-09-27T20:16:23-07:00</lastmod>
+    <lastmod>2017-10-17T19:13:33-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -281,8 +292,20 @@
   </url>
   
   <url>
+    <loc>https://vacoj.github.io/tags/service-map/</loc>
+    <lastmod>2017-10-17T19:13:33-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/tags/sprinkler/</loc>
     <lastmod>2017-09-26T11:30:21-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vacoj.github.io/tags/svg/</loc>
+    <lastmod>2017-10-17T19:13:33-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -330,7 +353,7 @@
   
   <url>
     <loc>https://vacoj.github.io/</loc>
-    <lastmod>2017-09-30T20:18:18-07:00</lastmod>
+    <lastmod>2017-10-17T19:13:33-07:00</lastmod>
     <priority>0</priority>
   </url>
   

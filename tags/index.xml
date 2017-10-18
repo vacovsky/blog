@@ -94,6 +94,15 @@
     </item>
     
     <item>
+      <title>Devops</title>
+      <link>https://vacoj.github.io/tags/devops/</link>
+      <pubDate>Tue, 17 Oct 2017 19:13:33 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Diy</title>
       <link>https://vacoj.github.io/tags/diy/</link>
       <pubDate>Tue, 26 Sep 2017 18:41:13 -0700</pubDate>
@@ -132,7 +141,7 @@
     <item>
       <title>Go</title>
       <link>https://vacoj.github.io/tags/go/</link>
-      <pubDate>Wed, 27 Sep 2017 20:16:23 -0700</pubDate>
+      <pubDate>Tue, 17 Oct 2017 19:13:33 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/go/</guid>
       <description></description>
@@ -150,7 +159,7 @@
     <item>
       <title>Hugo</title>
       <link>https://vacoj.github.io/tags/hugo/</link>
-      <pubDate>Sat, 30 Sep 2017 18:40:55 -0700</pubDate>
+      <pubDate>Tue, 17 Oct 2017 19:13:33 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/hugo/</guid>
       <description></description>
@@ -283,11 +292,29 @@
     </item>
     
     <item>
+      <title>Service Map</title>
+      <link>https://vacoj.github.io/tags/service-map/</link>
+      <pubDate>Tue, 17 Oct 2017 19:13:33 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/service-map/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sprinkler</title>
       <link>https://vacoj.github.io/tags/sprinkler/</link>
       <pubDate>Tue, 26 Sep 2017 11:30:21 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/sprinkler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Svg</title>
+      <link>https://vacoj.github.io/tags/svg/</link>
+      <pubDate>Tue, 17 Oct 2017 19:13:33 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/svg/</guid>
       <description></description>
     </item>
     
