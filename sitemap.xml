@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vacoj.github.io/posts/grafana-prometheus-excellent/</loc>
+    <lastmod>2017-10-20T15:42:32-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/projects/rollercoaster/</loc>
     <lastmod>2017-10-17T19:13:33-07:00</lastmod>
   </url>
@@ -172,6 +177,12 @@
   </url>
   
   <url>
+    <loc>https://vacoj.github.io/tags/grafana/</loc>
+    <lastmod>2017-10-20T15:42:32-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/categories/how-to/</loc>
     <lastmod>2017-09-30T18:40:55-07:00</lastmod>
     <priority>0</priority>
@@ -232,6 +243,18 @@
   </url>
   
   <url>
+    <loc>https://vacoj.github.io/tags/monitoring/</loc>
+    <lastmod>2017-10-20T15:42:32-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vacoj.github.io/categories/monitoring/</loc>
+    <lastmod>2017-10-20T15:42:32-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/tags/negative-value/</loc>
     <lastmod>2017-09-26T08:46:56-07:00</lastmod>
     <priority>0</priority>
@@ -239,7 +262,7 @@
   
   <url>
     <loc>https://vacoj.github.io/posts/</loc>
-    <lastmod>2017-09-30T18:40:55-07:00</lastmod>
+    <lastmod>2017-10-20T15:42:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -258,6 +281,12 @@
   <url>
     <loc>https://vacoj.github.io/categories/projects/</loc>
     <lastmod>2017-09-27T20:16:23-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vacoj.github.io/tags/prometheus/</loc>
+    <lastmod>2017-10-20T15:42:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -286,6 +315,12 @@
   </url>
   
   <url>
+    <loc>https://vacoj.github.io/tags/redis/</loc>
+    <lastmod>2017-10-20T15:42:32-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://vacoj.github.io/tags/resume/</loc>
     <lastmod>2017-09-27T19:00:37-07:00</lastmod>
     <priority>0</priority>
@@ -300,6 +335,12 @@
   <url>
     <loc>https://vacoj.github.io/tags/sprinkler/</loc>
     <lastmod>2017-09-26T11:30:21-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vacoj.github.io/tags/sql/</loc>
+    <lastmod>2017-10-20T15:42:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -324,6 +365,12 @@
   <url>
     <loc>https://vacoj.github.io/categories/technology/</loc>
     <lastmod>2017-09-26T08:46:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://vacoj.github.io/tags/telegraf/</loc>
+    <lastmod>2017-10-20T15:42:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -353,7 +400,7 @@
   
   <url>
     <loc>https://vacoj.github.io/</loc>
-    <lastmod>2017-10-17T19:13:33-07:00</lastmod>
+    <lastmod>2017-10-20T15:42:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   

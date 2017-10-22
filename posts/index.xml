@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2017 Joe Vacovsky Jr.</copyright>
-    <lastBuildDate>Sat, 30 Sep 2017 18:40:55 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 20 Oct 2017 15:42:32 -0700</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Monitoring while you develop with Grafana &#43; Telegraf &#43; Prometheus &#43; InfluxDB</title>
+      <link>https://vacoj.github.io/posts/grafana-prometheus-excellent/</link>
+      <pubDate>Fri, 20 Oct 2017 15:42:32 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/posts/grafana-prometheus-excellent/</guid>
+      <description>Index  InfluxDB in a container Prometheus in a container Grafana in a container Installing/configuring Telegraf Importing dashboards  Setting up InfluxDB in a container Note: This is a distillation of the InfluxDB setup documentation that I used - it can be found HERE
+Assuming you&amp;rsquo;re already set up with a nice docker host somewhere, run the following, but change the variable values:
+docker run --rm influxdb influxd config &amp;gt; influxdb.</description>
+    </item>
     
     <item>
       <title>Mapping .Net Environments with RollerCoaster</title>

@@ -157,6 +157,15 @@
     </item>
     
     <item>
+      <title>Grafana</title>
+      <link>https://vacoj.github.io/tags/grafana/</link>
+      <pubDate>Fri, 20 Oct 2017 15:42:32 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/grafana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>https://vacoj.github.io/tags/hugo/</link>
       <pubDate>Tue, 17 Oct 2017 19:13:33 -0700</pubDate>
@@ -238,11 +247,29 @@
     </item>
     
     <item>
+      <title>Monitoring</title>
+      <link>https://vacoj.github.io/tags/monitoring/</link>
+      <pubDate>Fri, 20 Oct 2017 15:42:32 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Negative Value</title>
       <link>https://vacoj.github.io/tags/negative-value/</link>
       <pubDate>Tue, 26 Sep 2017 08:46:56 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/negative-value/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prometheus</title>
+      <link>https://vacoj.github.io/tags/prometheus/</link>
+      <pubDate>Fri, 20 Oct 2017 15:42:32 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/prometheus/</guid>
       <description></description>
     </item>
     
@@ -283,6 +310,15 @@
     </item>
     
     <item>
+      <title>Redis</title>
+      <link>https://vacoj.github.io/tags/redis/</link>
+      <pubDate>Fri, 20 Oct 2017 15:42:32 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Resume</title>
       <link>https://vacoj.github.io/tags/resume/</link>
       <pubDate>Wed, 27 Sep 2017 19:00:37 -0700</pubDate>
@@ -310,6 +346,15 @@
     </item>
     
     <item>
+      <title>Sql</title>
+      <link>https://vacoj.github.io/tags/sql/</link>
+      <pubDate>Fri, 20 Oct 2017 15:42:32 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Svg</title>
       <link>https://vacoj.github.io/tags/svg/</link>
       <pubDate>Tue, 17 Oct 2017 19:13:33 -0700</pubDate>
@@ -324,6 +369,15 @@
       <pubDate>Sat, 30 Sep 2017 18:40:55 -0700</pubDate>
       
       <guid>https://vacoj.github.io/tags/team-foundation-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Telegraf</title>
+      <link>https://vacoj.github.io/tags/telegraf/</link>
+      <pubDate>Fri, 20 Oct 2017 15:42:32 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/tags/telegraf/</guid>
       <description></description>
     </item>
     
