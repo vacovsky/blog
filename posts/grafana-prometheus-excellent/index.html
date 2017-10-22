@@ -17,8 +17,8 @@
 <meta property="og:locale" content="nn_NO" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://vacoj.github.io/posts/grafana-prometheus-excellent/" />
-<meta property="og:title" content="Monitoring while you develop with Grafana &#43; Telegraf &#43; Prometheus &#43; InfluxDB" />
-<meta property="twitter:title" content="Monitoring while you develop with Grafana &#43; Telegraf &#43; Prometheus &#43; InfluxDB">
+<meta property="og:title" content="Tinkering with Grafana &#43; Telegraf &#43; Prometheus &#43; InfluxDB" />
+<meta property="twitter:title" content="Tinkering with Grafana &#43; Telegraf &#43; Prometheus &#43; InfluxDB">
 
     <meta property="og:image" content="https://vacoj.github.io/img/banner.png">
     <meta property="twitter:card" content="summary">
@@ -29,7 +29,7 @@
 <title>
 
 
-     stupid _ prizes - Monitoring while you develop with Grafana &#43; Telegraf &#43; Prometheus &#43; InfluxDB 
+     stupid _ prizes - Tinkering with Grafana &#43; Telegraf &#43; Prometheus &#43; InfluxDB 
 
 </title>
 <link rel="canonical" href="https://vacoj.github.io/posts/grafana-prometheus-excellent/">
@@ -1064,14 +1064,14 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
         <div class="content">
             <div class="page-heading">
 
-    Monitoring while you develop with Grafana &#43; Telegraf &#43; Prometheus &#43; InfluxDB
+    Tinkering with Grafana &#43; Telegraf &#43; Prometheus &#43; InfluxDB
 
 </div>
 
             <div class="markdown">
                 
-    
-    
+
+
 
 <h3 id="index">Index</h3>
 
@@ -1164,7 +1164,7 @@ scrape_configs:
 
 <p>Telegraf is an agent used to monitor servers of various sorts.  It provides plugins for a number of inputs, and plugins for a number of output formats as well.  Included among the outputs are Prometheus, and the default, InfluxDB.</p>
 
-<p>The Telegraf agent can be easily configured via its <code>.toml</code> file.  Below, the example configuration will set up monitoring for MariaDB, and RabbitMQ.  We will use the Redis Exporter app to monitor that application.  To create a base configuration, run:</p>
+<p>The Telegraf agent can be configured via its <code>telegraf.conf</code> file.  Below, the example configuration will set up monitoring for MariaDB, and RabbitMQ.  We will use the Redis Exporter app to monitor that application.  To create a base configuration, run the below command, or to make your own from the Telegraf config generator, run <code>telegraf config &gt; telegraf.conf</code>:</p>
 
 <pre><code class="language-bash">echo '
 [[outputs.prometheus_client]]
@@ -1207,15 +1207,17 @@ scrape_configs:
 
 <p>This effort (which be turned into a simple bash script) results in your ability to make very clean and versatile dashboards, complete with the ability to query data from the available inputs!</p>
 
-<p>Once you&rsquo;re able to see the data in Prometheus, simple add the data inputs for your prometheus container and InfluxDB server in Grafana.  After that, add your dashboards using the Grafana dashboard search - copy the ID of the dashboard you wish to use (and for which you have data inputs available for).</p>
+<p>Once data is viewable in the Prometheus management interface, add data inputs for the newly created Prometheus container and InfluxDB server in Grafana.  Then, create new dashboards using the Grafana&rsquo;s premade dashboard search site.  Copy the ID of the dashboard you wish to use (and for which you have data inputs available for) into the form created when clicking &ldquo;Import Dashboard&rdquo; from the &ldquo;Dashboards&rdquo; menu in Grafana (screenshot below).</p>
 
-<h3 id="example-dashboards">Example Dashboards</h3>
+<p><figure class="progressive"><img class="progressive__img progressive--not-loaded" data-progressive="https://vacoj.github.io/img/grafanaimport.png" src="https://vacoj.github.io/img/low/grafanaimport.png" alt="" /></p></figure>
 
-<h4 id="mariadb-found-here-https-grafana-com-dashboards-1177">MariaDB <a href="https://grafana.com/dashboards/1177"><em>found here</em></a></h4>
+<h4 id="example-dashboards">Example Dashboards</h4>
+
+<h5 id="mariadb-found-here-https-grafana-com-dashboards-1177">MariaDB <a href="https://grafana.com/dashboards/1177"><em>found here</em></a></h5>
 
 <p><figure class="progressive"><img class="progressive__img progressive--not-loaded" data-progressive="https://vacoj.github.io/img/grafana_mariadb.png" src="https://vacoj.github.io/img/low/grafana_mariadb.png" alt="" title="A screenshot of a Grafana dashboard monitoring MariaDB." /></p></figure>
 
-<h4 id="redis-found-here-https-grafana-com-dashboards-2751">Redis <a href="https://grafana.com/dashboards/2751"><em>found here</em></a></h4>
+<h5 id="redis-found-here-https-grafana-com-dashboards-2751">Redis <a href="https://grafana.com/dashboards/2751"><em>found here</em></a></h5>
 
 <p><figure class="progressive"><img class="progressive__img progressive--not-loaded" data-progressive="https://vacoj.github.io/img/grafredis.png" src="https://vacoj.github.io/img/low/grafredis.png" alt="" title="A screenshot of a Grafana dashboard monitoring Redis." /></p></figure>
 
@@ -1223,6 +1225,22 @@ scrape_configs:
 ![](/img/grafana_rabbitmq.png "A screenshot of a Grafana dashboard monitoring RabbitMQ.") -->
 
 
+
+<div id="wpac-comment"></div>
+<script type="text/javascript">
+wpac_init = window.wpac_init || [];
+wpac_init.push({widget: 'Comment', id: 7621});
+(function() {
+if ('WIDGETPACK_LOADED' in window) return;
+WIDGETPACK_LOADED = true;
+var mc = document.createElement('script');
+mc.type = 'text/javascript';
+mc.async = true;
+mc.src = 'https://embed.widgetpack.com/widget.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+})();
+</script>
+<a href="https://widgetpack.com" class="wpac-cr">Comments System WIDGET PACK</a>
             </div>
         </div>
     </div>
