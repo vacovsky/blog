@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2017 Joe Vacovsky Jr.</copyright>
-    <lastBuildDate>Fri, 20 Oct 2017 15:42:32 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 22 Oct 2017 14:57:44 -0700</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>License</title>
+      <link>https://vacoj.github.io/license/</link>
+      <pubDate>Sun, 22 Oct 2017 14:57:44 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/license/</guid>
+      <description>Creative Commons Attribution 4.0 International Public License
+By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (&amp;ldquo;Public License&amp;rdquo;). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.</description>
+    </item>
     
     <item>
       <title>Tinkering with Grafana &#43; Telegraf &#43; Prometheus &#43; InfluxDB</title>
@@ -42,7 +52,7 @@ get the source code from - the repository -</description>
       <pubDate>Sat, 30 Sep 2017 20:18:18 -0700</pubDate>
       
       <guid>https://vacoj.github.io/about/</guid>
-      <description>Notes about workish things, mostly in the &amp;ldquo;DevOps&amp;rdquo; space, sprinkled with justifications for wasting time in front of a computer.</description>
+      <description> I&amp;rsquo;m just a crawdad lookin&amp;rsquo; for a pot. </description>
     </item>
     
     <item>

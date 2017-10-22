@@ -1053,6 +1053,8 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
                         
                     
                     
+                        
+                    
                 </ul>
             </nav>
         </div>
@@ -1073,7 +1075,9 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 
 
 
-<h3 id="index">Index</h3>
+<hr />
+
+<h2 id="index">Index</h2>
 
 <!-- - [_Introduction_](#monitoring-and-profiling-while-developing-an-application) -->
 
@@ -1085,7 +1089,9 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 <li><a href="#bringing-it-all-together-the-fun-part"><em>Importing dashboards</em></a></li>
 </ul>
 
-<h3 id="setting-up-influxdb-in-a-container">Setting up InfluxDB in a container</h3>
+<hr />
+
+<h2 id="setting-up-influxdb-in-a-container">Setting up InfluxDB in a container</h2>
 
 <p><em>Note: This is a distillation of the InfluxDB setup documentation that I used - it can be found <a href="https://hub.docker.com/_/influxdb/"><em>HERE</em></a></em></p>
 
@@ -1107,7 +1113,9 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 -v $PWD/influxdb.conf:/etc/influxdb/influxdb.conf:ro influxdb -config /etc/influxdb/influxdb.conf
 </code></pre>
 
-<h3 id="prometheus-in-a-container">Prometheus in a container</h3>
+<hr />
+
+<h2 id="prometheus-in-a-container">Prometheus in a container</h2>
 
 <p><em>Following the instructions <a href="https://prometheus.io/docs/introduction/install/"><em>HERE</em></a> will get you up and running with Prometheus in a Docker container.</em></p>
 
@@ -1136,7 +1144,7 @@ scrape_configs:
 
 <p>Prometheus, once started, will begin scraping any prometheus client endpoints you&rsquo;ve declared as a <code>target</code> within its configuration file.</p>
 
-<h4 id="searching-within-prometheus">Searching within Prometheus</h4>
+<h3 id="searching-within-prometheus">Searching within Prometheus</h3>
 
 <p>To view prometheus&rsquo; data inputs (and search it, if desired), browse to the IP of your prometheus instance at port 9090 (<code>http://localhost:9090</code>).</p>
 
@@ -1144,7 +1152,9 @@ scrape_configs:
 
 <p><figure class="progressive"><img class="progressive__img progressive--not-loaded" data-progressive="https://vacoj.github.io/img/promsearch.png" src="https://vacoj.github.io/img/low/promsearch.png" alt="" title="Quick and dirty prometheus chart." /></p></figure>
 
-<h3 id="grafana-in-a-container">Grafana in a container</h3>
+<hr />
+
+<h2 id="grafana-in-a-container">Grafana in a container</h2>
 
 <p>Grafana provides a beautifully designed interface for displaying real-time information pulled from many different time-series data sources.  It is able to ingest from Prometheus, InfluxDB, New Relic, PRTG, and many, many more.</p>
 
@@ -1160,7 +1170,9 @@ scrape_configs:
 
 <p>You will now be able to connect to the Grafana frontend via <code>http://dockerhost:3000/</code>.</p>
 
-<h3 id="configuring-telegraf">Configuring Telegraf</h3>
+<hr />
+
+<h2 id="configuring-telegraf">Configuring Telegraf</h2>
 
 <p>Telegraf is an agent used to monitor servers of various sorts.  It provides plugins for a number of inputs, and plugins for a number of output formats as well.  Included among the outputs are Prometheus, and the default, InfluxDB.</p>
 
@@ -1203,7 +1215,9 @@ scrape_configs:
 ' &gt; telegraf.conf
 </code></pre>
 
-<h3 id="bringing-it-all-together-the-fun-part">Bringing it all together (the fun part)</h3>
+<hr />
+
+<h2 id="bringing-it-all-together-the-fun-part">Bringing it all together (the fun part)</h2>
 
 <p>This effort (which be turned into a simple bash script) results in your ability to make very clean and versatile dashboards, complete with the ability to query data from the available inputs!</p>
 
@@ -1211,13 +1225,13 @@ scrape_configs:
 
 <p><figure class="progressive"><img class="progressive__img progressive--not-loaded" data-progressive="https://vacoj.github.io/img/grafanaimport.png" src="https://vacoj.github.io/img/low/grafanaimport.png" alt="" /></p></figure>
 
-<h4 id="example-dashboards">Example Dashboards</h4>
+<h3 id="example-dashboards">Example Dashboards</h3>
 
-<h5 id="mariadb-found-here-https-grafana-com-dashboards-1177">MariaDB <a href="https://grafana.com/dashboards/1177"><em>found here</em></a></h5>
+<h4 id="mariadb-found-here-https-grafana-com-dashboards-1177">MariaDB <a href="https://grafana.com/dashboards/1177"><em>found here</em></a></h4>
 
 <p><figure class="progressive"><img class="progressive__img progressive--not-loaded" data-progressive="https://vacoj.github.io/img/grafana_mariadb.png" src="https://vacoj.github.io/img/low/grafana_mariadb.png" alt="" title="A screenshot of a Grafana dashboard monitoring MariaDB." /></p></figure>
 
-<h5 id="redis-found-here-https-grafana-com-dashboards-2751">Redis <a href="https://grafana.com/dashboards/2751"><em>found here</em></a></h5>
+<h4 id="redis-found-here-https-grafana-com-dashboards-2751">Redis <a href="https://grafana.com/dashboards/2751"><em>found here</em></a></h4>
 
 <p><figure class="progressive"><img class="progressive__img progressive--not-loaded" data-progressive="https://vacoj.github.io/img/grafredis.png" src="https://vacoj.github.io/img/low/grafredis.png" alt="" title="A screenshot of a Grafana dashboard monitoring Redis." /></p></figure>
 

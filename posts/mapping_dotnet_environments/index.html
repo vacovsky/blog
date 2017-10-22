@@ -1053,6 +1053,8 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
                         
                     
                     
+                        
+                    
                 </ul>
             </nav>
         </div>
@@ -1075,6 +1077,8 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 
 <h4 id="view-demo-site-https-vacoj-github-io-rollercoaster"><a href="https://vacoj.github.io/rollercoaster"> &ndash; <em>VIEW DEMO SITE</em> &ndash; </a></h4>
 
+<hr />
+
 <h3 id="the-problem">The Problem</h3>
 
 <p>It&rsquo;s often a challenge to explain the complexities of software configuration management to those who don&rsquo;t need to understand it from the &ldquo;city&rdquo; perspective, but only see the &ldquo;house&rdquo; they are building; or to management who may not understand that configuration management takes time and shouldn&rsquo;t be done hastily.  It&rsquo;s not always as simple as a few text files with key value pairs.  Sometimes, just the application configuration is cumulatively 50,000 lines of XML, and that&rsquo;s not counting infrastructure, scripts, SQL, Network, etc.  It can get ugly, fast, and ends up seeming like each new application increases complexity by one of these:</p>
@@ -1085,11 +1089,15 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 
 <p><figure class="progressive"><img class="progressive__img progressive--not-loaded" data-progressive="https://vacoj.github.io/img/rctoys.png" src="https://vacoj.github.io/img/low/rctoys.png" alt="" /></p></figure>
 
+<hr />
+
 <h3 id="the-idea">The Idea</h3>
 
 <p>I wanted to make an accurate, searchable, and self-updating visual representation of application environment architecture, to show where different elements in an environment touch on another.  Some products, like <a href="https://docs.newrelic.com/docs/data-analysis/service-maps/get-started/introduction-service-maps">New Relic</a>, will produce just such a map without a huge amount of effort, however, it&rsquo;s a paid product, and at the time I&rsquo;m writing this, does not capture certain type of communications between applications, like self-hosted (non-IIS) WCF service communication via TCP.</p>
 
 <p>I wanted to make a tool that could create a service map, but without the need for a third-party agent, that could rebuild itself when a change to configuration is detected.</p>
+
+<hr />
 
 <h3 id="the-setup">The Setup</h3>
 
@@ -1103,6 +1111,8 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 </ul>
 
 <p><em>With all components combined, along with the right incantations, you will be able to generate a map similar to this, from your XML config file:</em></p>
+
+<hr />
 
 <h3 id="building-it-yourself">Building It Yourself</h3>
 
@@ -1183,6 +1193,8 @@ pluralizelisttitles = false
 }
 </code></pre>
 
+<hr />
+
 <h3 id="after-configuration-or-just-use-the-defaults-after-cloning">After Configuration&hellip; or just use the defaults after cloning.</h3>
 
 <p>Run the following commands to get the demo site up and running locally, assuming you have <code>$GOPATH</code> set correctly:</p>
@@ -1198,6 +1210,8 @@ cd ../
 hugo server
 echo &quot;Open a browser to http://localhost:1313 to see your site&quot;
 </code></pre>
+
+<hr />
 
 <h3 id="the-examples">The Examples</h3>
 
@@ -1259,6 +1273,8 @@ echo &quot;Open a browser to http://localhost:1313 to see your site&quot;
     });
 &lt;/script&gt;
 </code></pre>
+
+<hr />
 
 <h3 id="the-product">The Product</h3>
 
