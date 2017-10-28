@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2017 Joe Vacovsky Jr.</copyright>
-    <lastBuildDate>Sun, 22 Oct 2017 14:57:44 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 27 Oct 2017 21:48:24 -0700</lastBuildDate>
     
 	<atom:link href="https://vacoj.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SkidPDF, a PDF-from-web microservice</title>
+      <link>https://vacoj.github.io/projects/skidpdf/</link>
+      <pubDate>Fri, 27 Oct 2017 21:48:24 -0700</pubDate>
+      
+      <guid>https://vacoj.github.io/projects/skidpdf/</guid>
+      <description>A microservice docker container for converting web pages into PDF files.
+functional demo: http://skidpdf.vacovsky.us
+Docker Get pre-built docker container:
+docker run --rm -p 8080:8080 -d vacovsky/skidpdf:latest  Usage Render a PDF from a web page curl &amp;quot;http://localhost:8080/pdf?grayscale=false&amp;amp;landscape=true&amp;amp;uri=google.com&amp;quot; &amp;gt; google.pdf  Alternately, browse to http://localhost:8080/pdf?uri=https://github.com/vacoj/skid-pdf&amp;amp;portrait=0&amp;amp;grayscale=0 with chrome to see the PDF.
+Using HTTP GET: /pdf Streams back to the caller a PDF render of the website passed in the ?uri={someurl} field.</description>
+    </item>
     
     <item>
       <title>License</title>

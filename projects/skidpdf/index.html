@@ -16,9 +16,9 @@
 <meta property="og:site_name" content="stupid _ prizes" />
 <meta property="og:locale" content="nn_NO" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://vacoj.github.io/projects/" />
-<meta property="og:title" content="Projects" />
-<meta property="twitter:title" content="Projects">
+<meta property="og:url" content="https://vacoj.github.io/projects/skidpdf/" />
+<meta property="og:title" content="SkidPDF, a PDF-from-web microservice" />
+<meta property="twitter:title" content="SkidPDF, a PDF-from-web microservice">
 
     <meta property="og:image" content="https://vacoj.github.io/img/banner.png">
     <meta property="twitter:card" content="summary">
@@ -29,10 +29,10 @@
 <title>
 
 
-     stupid _ prizes - Projects 
+     stupid _ prizes - SkidPDF, a PDF-from-web microservice 
 
 </title>
-<link rel="canonical" href="https://vacoj.github.io/projects/">
+<link rel="canonical" href="https://vacoj.github.io/projects/skidpdf/">
 
 
 <style media="screen">
@@ -1017,8 +1017,6 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 
 
 
-  <link href="https://vacoj.github.io/projects/index.xml" rel="alternate" type="application/rss+xml" title="stupid _ prizes" />
-
 
 </head>
 
@@ -1026,7 +1024,7 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 <body>
 
 
-<section class="header header-home">
+<section class="header">
 
     <div class="container">
         <a href="https://vacoj.github.io/"><img class="logo" src="https://vacoj.github.io/img/logo.png" alt="logo" /></a>
@@ -1066,97 +1064,168 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 <section class="main">
     <div class="container">
         <div class="content">
-            
+            <div class="page-heading">
+
+    SkidPDF, a PDF-from-web microservice
+
+</div>
+
             <div class="markdown">
                 
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </div>
-            <div class="posts">
-            
-                <div class="page-heading">Projects</div>
-                <ul>
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Oct 27, 2017</span>
-    <a href="https://vacoj.github.io/projects/skidpdf/"><span>SkidPDF, a PDF-from-web microservice</span></a>
-</li>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Oct 17, 2017</span>
-    <a href="https://vacoj.github.io/projects/rollercoaster/"><span>Rollercoaster</span></a>
-</li>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 27, 2017</span>
-    <a href="https://vacoj.github.io/projects/trebot/"><span>Trebot</span></a>
-</li>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2017</span>
-    <a href="https://vacoj.github.io/projects/neatlights/"><span>Neatlights</span></a>
-</li>
+<p>A microservice docker container for converting web pages into PDF files.</p>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2017</span>
-    <a href="https://vacoj.github.io/projects/fasturtle/"><span>Fasturtle</span></a>
-</li>
+<p><strong>functional demo: <a href="http://skidpdf.vacovsky.us">http://skidpdf.vacovsky.us</a></strong></p>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2017</span>
-    <a href="https://vacoj.github.io/projects/mindbody-django/"><span>Mindbody Django</span></a>
-</li>
+<h2 id="docker">Docker</h2>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2017</span>
-    <a href="https://vacoj.github.io/projects/mindbodyapigolang/"><span>Mindbody-API-Golang</span></a>
-</li>
+<p>Get pre-built docker container:</p>
 
-                        
-                    
-                        
-                            <li class="post-item">
-    <span class="meta">Sep 26, 2017</span>
-    <a href="https://vacoj.github.io/projects/pirrigo/"><span>Pirrigo</span></a>
-</li>
+<pre><code class="language-bash">docker run --rm -p 8080:8080 -d vacovsky/skidpdf:latest
+</code></pre>
 
-                        
-                    
-                </ul>
-            
+<h2 id="usage">Usage</h2>
+
+<h3 id="render-a-pdf-from-a-web-page">Render a PDF from a web page</h3>
+
+<pre><code class="language-bash">curl &quot;http://localhost:8080/pdf?grayscale=false&amp;landscape=true&amp;uri=google.com&quot; &gt; google.pdf
+</code></pre>
+
+<p>Alternately, browse to <code>http://localhost:8080/pdf?uri=https://github.com/vacoj/skid-pdf&amp;portrait=0&amp;grayscale=0</code> with chrome to see the PDF.</p>
+
+<h3 id="using-http">Using HTTP</h3>
+
+<h4 id="get-pdf">GET: /pdf</h4>
+
+<p>Streams back to the caller a PDF render of the website passed in the <code>?uri={someurl}</code> field.</p>
+
+<ul>
+<li><code>?uri={google.com,http://google.com,https://google.com}</code> can be any valid string representing an http endpoint.  http/https may be specified.</li>
+<li><code>?grayscale={true,false,1,0,T,F}</code> determines whether or not the PDF will be created in grayscale.   Default is full color / grayscale false.</li>
+<li><code>?landscape={true,false,1,0,T,F}</code> determines whether or not the PDF will be created in landscape mode.   Default is portrait mode / landscape false.</li>
+</ul>
+
+<h4 id="post-pdf">POST: /pdf</h4>
+
+<p>The POST method on this endpoint allows for more complicated query strings, and soon, headers and other form data to be sent to a target endpoint for PDF generation.</p>
+
+<pre><code class="language-javascript">{
+    &quot;url&quot;: &quot;https://requestb.in/17du8md1&quot;, // endpoint you want to turn into a PDF
+    &quot;data&quot;: &quot;#safe=off&amp;q=wkhtmltopdf&quot;, // should be in query string format: &quot;?key1=somval&amp;key2=anotherVal&quot;
+    &quot;grayscale&quot;: true,
+    &quot;landscape&quot;: true,
+    &quot;headers&quot;: {
+        &quot;testheader1&quot;: &quot;testheader1&quot;
+    },
+    &quot;postParams&quot;: {  // if any values are passed here, the request becomes a POST.  If you want a GET, use the &quot;data&quot; field to pass a query string.
+        &quot;testkey1&quot;: &quot;testvalue1&quot;,
+        &quot;testkey2&quot;: &quot;testvalue2&quot;
+    }
+}
+</code></pre>
+
+<!--// if action == "POST" or "PUT", this should be a json blob: "{\"key1\":\"someval\",\"key2\":\"anotherVal\"}"-->
+
+<h4 id="get-help">GET: /help</h4>
+
+<p>301s you to the README.md on github.com</p>
+
+<h4 id="get">GET: /</h4>
+
+<p>Displays the built-in documentation page, where you can test the service using a handy little web tool, as well as see all the documentation for the version you&rsquo;re using.</p>
+
+<h3 id="using-amqp">Using AMQP</h3>
+
+<h4 id="submit-a-message-for-asynchronous-processing">Submit a message for asynchronous processing</h4>
+
+<pre><code class="language-javascript">{
+    &quot;url&quot;: &quot;https://requestb.in/17du8md1&quot;,  // endpoint you want to turn into a PDF
+    &quot;data&quot;: &quot;#safe=off&amp;q=wkhtmltopdf&quot;, // should be in query string format: &quot;?key1=somval&amp;key2=anotherVal&quot;
+    &quot;grayscale&quot;: true,
+    &quot;landscape&quot;: true,
+    &quot;headers&quot;: {
+        &quot;testheader1&quot;: &quot;testheader1&quot;
+    },
+    &quot;postParams&quot;: {  // if any values are passed here, the request becomes a POST.  If you want a GET, use the &quot;data&quot; field to pass a query string.
+        &quot;testkey1&quot;: &quot;testvalue1&quot;,
+        &quot;testkey2&quot;: &quot;testvalue2&quot;
+    },
+    &quot;targetFileName&quot;: &quot;test1.pdf&quot;,  // name of file to be created
+    &quot;targetFileDest&quot;: &quot;./pdfs&quot; // destination folder for file to be placed.  Mounting a shared volume seems to be a way to export files for consumption elsewhere.  Might add more destination formats later.
+}
+</code></pre>
+
+<p>The above message being posted on the queue will result in a  grayscale, landscape oriented PDF file being created at <code>./pdfs/test1.pdf</code>, with content rendered from <a href="https://google.com">https://google.com</a>.</p>
+
+<h2 id="setup">Setup</h2>
+
+<h3 id="modify-existing-create-settings-file">Modify existing/create settings file</h3>
+
+<pre><code class="language-javascript">{
+    &quot;httpPort&quot;: &quot;8080&quot;, // must be string; port for http synchronous work
+    &quot;useQueue&quot;: true, // if false, only HTTP synchronous access is turned on
+    &quot;queueConnectionString&quot;: &quot;amqp://username:password@hostname:port/&quot;, // AMQP connection string.  Tested with RabbitMQ
+    &quot;queueChannel&quot;: &quot;skidpdf&quot;, // name of queue to listen on
+    &quot;autoAck&quot;: true // Acknowledge receipt of enqueued messages
+}
+</code></pre>
+
+<p><strong>By default, if no arguments are passed after the binary name, the default settings file provided is used.  To specify a settings file, run the binary/container like this:</strong></p>
+
+<pre><code class="language-bash">/path/to/binary /path/to/settings.json
+</code></pre>
+
+<h3 id="build-the-application">Build the application</h3>
+
+<p>To compile the service and build the docker image, enter the following in your terminal starting in the root of this project (assuming you have docker set up and working):</p>
+
+<pre><code class="language-bash">
+# build the application
+cd src/skid-pdf; go build;
+
+# (optional) install static deps if you want the front end
+cd static; bower install --force; cd ..;
+
+# go back to root of the project
+cd ../../
+</code></pre>
+
+<h3 id="build-the-docker-image-for-hosting">Build the docker image for hosting</h3>
+
+<pre><code class="language-bash"># create docker image with all required elements in place
+docker build -t skidpdf -f Dockerfile .
+
+# turn the docker image on
+docker run -p 8080:8080 -it -d skidpdf
+</code></pre>
+
+<h2 id="todo">TODO:</h2>
+
+<ul>
+<li>better support needed for controlling where and how asynchronously generated files are written</li>
+<li>wrap the wkhtmltopdf C library instead of the binary</li>
+<li>open to other suggestions</li>
+</ul>
+
+
+
+<div id="wpac-comment"></div>
+<script type="text/javascript">
+wpac_init = window.wpac_init || [];
+wpac_init.push({widget: 'Comment', id: 7621});
+(function() {
+if ('WIDGETPACK_LOADED' in window) return;
+WIDGETPACK_LOADED = true;
+var mc = document.createElement('script');
+mc.type = 'text/javascript';
+mc.async = true;
+mc.src = 'https://embed.widgetpack.com/widget.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+})();
+</script>
+
             </div>
         </div>
     </div>
